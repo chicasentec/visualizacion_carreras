@@ -7,17 +7,29 @@ Analisis y visualizaciones de la base de datos de genero y carreras universitari
 1. Clonar o descargar repositorio
 2. `pip install -e .`
 
-### ETL - Correr solo si desean hacer cambios a los datos o trabajar con una BBDD propia
+### ETL 
+El ETL se encarga de procesar los datos en el la carpeta `data/input`, realizar el mapping entra las carreras y los grupos en las que queramos agruparlas, realizar la geolocalizacion de las universidades. Los resultados de la transformacion se guardan en la carpeta output y se utilizan para las visualizaciones.
 
-Si se desea modificar el procesamiento de los datos:
+El archivo `data/carreras.csv` contiene un listado de todas las carreras que se analizan e incluye, para cada una, su grupo (que se usa para agrupar grandes grupos de carreras) y su 'nombre normalizado' (que usamos para unificar nombres de carreras). Los grupos son, por ejemplo 'Juridicas, Económicas, Sociales, Naturales' y los nombres de carrera son, por ejemplo, 'Abogacia, Cs.Computacion, Medicina, Filosfia'. Todas las agrupaciones las realizamos de acuerdo a lo que queríamos analizar. El proceso fue automático(mediante macros y filtros directamente en la hoja de cálculos) y manual por lo que puede haber errores. Las carreras que quisimos dejar fuera del análisis las catalogamos como 'Otros', tanto en los grupos como en nombre normalizado. Esto se puede cambiar si se quisiera.
 
-* Abrir y correr etl-next-journal.ipynb
+Para agregar un nuevo año al análisis, no solamente hay que agregarlo a carreras.csv sino tambien agregar los títulos que aparezcan en `data/validacion/titulos_nuevos.csv` y realizar el mapeo. 
+
+Para procesamiento de los datos, de las maneras mencionadas
+
+* Correr el proyecto `jupyter notebook`
+* Abrir etl-next-journal.ipynb
+* Realizar las modificaciones en los datos (o en el código) y correr el ETL (Cell --> Run All)
+
 
 ### Visualizaciones
 
-Para ver, usar y/o modificar las visualizaciones (sobre los datos de este repositorio ya procesados, o los datos modificados por el ETL):
+El código que genera las visualizaciones utiliza los datos de la carpeta `data/output` generados por el ETL. Estos datos son autogenerados, por lo que recomendamos no modificarlos manualmente, sino usar el ETL para hacer cambios.
 
-* Abrir y correr visualizaciones-next-journal.ipynb
+Para ver, usar y/o modificar las visualizaciones:
+
+* Correr el proyecto `jupyter notebook`
+* Abrir visualizaciones-next-journal.ipynb
+* Correr el ETL (Cell --> Run All)
 
 ### Visualizaciones en HTML
 
