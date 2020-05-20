@@ -33,13 +33,13 @@ Analista Administrativo,Economicas,Adm. Empresas
 Analista Administrativo Agropecuario,Economicas,Adm. Agraria
 Analista Administrativo Contable,Economicas,Contabilidad y Estadistica
 Analista Administrativo Universitaria,Economicas,Adm. Empresas
-Analista Administrativo Universitario,Otros,Otros
+Analista Administrativo Universitario,Economicas,Adm. Empresas
 Analista Ambiental,Naturales,Ambiente
 Analista Ambiental Universitaria,Naturales,Ambiente
-Analista Ambiental Universitario,Otros,Otros
+Analista Ambiental Universitario,Naturales,Ambiente
 Analista Biologico,Naturales,Biologia
-Analista Contable,Otros,Otros
-Analista Contable Universitario - MD,Otros,Otros
+Analista Contable,Economicas,Contabilidad y Estadistica
+Analista Contable Universitario - MD,Economicas,Contabilidad y Estadistica
 Analista Contable y Administrativo,Economicas,Contabilidad y Estadistica
 Analista de Marketing,Comunicacion,Publicidad y Marketing
 Analista de Negocios,Economicas,Adm. Empresas
@@ -59,9 +59,9 @@ Analista Economico,Economicas,Economia y Finanzas
 Analista en Administracion,Otros,Otros
 Analista en Administracion Agraria,Economicas,Adm. Agraria
 Analista en Administracion Hotelera,"Hoteleria, Gastronomia y Turismo",Hoteleria
-Analista en Administracion Turistica,Otros,Otros
+Analista en Administracion Turistica,"Hoteleria, Gastronomia y Turismo",Turismo
 Analista en Calidad Industrial,Otros,Otros
-Analista en Ciencias Ambientales,Otros,Otros
+Analista en Ciencias Ambientales,Naturales,Ambiente
 Analista en Comercializacion,Comunicacion,Publicidad y Marketing
 Analista en Comercio Internacional,Economicas,Comercio Exterior
 Analista en Computacion,Informatica,Analista
@@ -77,10 +77,10 @@ Analista en Informatica,Informatica,Analista
 Analista en Informatica,Informatica,Analista
 Analista en Informatica Aplicada,Informatica,Analista
 Analista en Informatica Aplicada (titulo Intermedio),Informatica,Analista
-Analista en Informatica Aplicada (Titulo Intermedio),Otros,Otros
+Analista en Informatica Aplicada (Titulo Intermedio),Informatica,Analista
 Analista en Marketing,Comunicacion,Publicidad y Marketing
 Analista en Marketing - MD,Comunicacion,Publicidad y Marketing
-Analista en Medios de Comunicacion Social,Otros,Otros
+Analista en Medios de Comunicacion Social,Comunicacion,Periodismo
 Analista en Opinion Publica,Comunicacion,Periodismo
 Analista en Organizacion,Economicas,Adm. Empresas
 Analista en Organizacion Industrial,Economicas,Adm. Industrial
@@ -104,11 +104,11 @@ Analista Politico Universitario,Otros,Otros
 Analista Programador,Informatica,Analista
 Analista Programador - MD,Informatica,Analista
 Analista Programador Universitaria,Informatica,Analista
-Analista Programador Universitario,Otros,Otros
+Analista Programador Universitario,Informatica,Analista
 Analista Quimica,Exactas,Quimica
-Analista Quimica - Titulo Intermedio,Otros,Otros
+Analista Quimica - Titulo Intermedio,Exactas,Quimica
 Analista Quimica Universitaria,Exactas,Quimica
-Analista Quimica Universitario,Otros,Otros
+Analista Quimica Universitario,Exactas,Quimica
 Analista Universitaria Contable,Economicas,Contabilidad y Estadistica
 Analista Universitaria Contable - MD,Economicas,Contabilidad y Estadistica
 Analista Universitaria de Alimentos,Naturales,Alimentos
@@ -157,8 +157,8 @@ Analista Universitaria en Sistemas de Computacion,Informatica,Analista
 Analista Universitaria en Sistemas de Computacion - MD,Informatica,Analista
 Analista Universitaria en Sistemas de Informacion,Informatica,Sistemas de Informacion
 Analista Universitaria en Sistemas y Gestion,Informatica,Analista
-Analista Universitario Contable,Otros,Otros
-Analista Universitario Contable - MD,Otros,Otros
+Analista Universitario Contable,Economicas,Contabilidad y Estadistica
+Analista Universitario Contable - MD,Economicas,Contabilidad y Estadistica
 Analista Universitario de Alimentos,Otros,Otros
 Analista Universitario de Computacion,Informatica,Analista
 Analista Universitario de Sistemas,Informatica,Analista
